@@ -2,15 +2,17 @@
 ## Tiled parser for their XML format in Python (originally created for pygame)
 
 ### Supports:
-1. Animated tiles
-2. Multiple layers
-3. Layer ordering
-4. Compact tile data in single list
+- Animated tiles
+- Multiple layers
+- Layer ordering
+- Compact tile data in single list
 
 
 ### Example use:
-`code` tmx_map = tgl.load_map('./world/level_0/level_0.tmx')
-`code` tmx_images = tmx_map.load_images()
+`code`
+```
+tmx_map = tgl.load_map('./world/level_0/level_0.tmx')
+tmx_images = tmx_map.load_images()
 all_tiles = tmx_map.load_tiles()
 
 world_tiles : list[GameTile] = []
@@ -18,3 +20,4 @@ world_tiles : list[GameTile] = []
 for tile in all_tiles:
   if tile.layer_name == 'bg_clouds':
     world_tiles.append(GameTile(tile))
+```
