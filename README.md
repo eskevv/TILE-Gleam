@@ -10,6 +10,8 @@
 
 ### Example use:
 ```
+import tgl
+
 tmx_map = tgl.load_map('./world/level_0/level_0.tmx')
 tmx_images = tmx_map.load_images()
 all_tiles = tmx_map.load_tiles()
