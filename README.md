@@ -12,6 +12,10 @@ I made this to improve my python skills when i started with Python
 
 
 ### Example scenario:
+1) load the map
+2) load the images
+3) load the tiles
+4) append data as needed to your custom tile class
 ```
 import tgl
 
