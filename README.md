@@ -11,7 +11,7 @@ I made this to improve my python skills when i started with Python
 - Compact tile data in single list
 
 
-### Example use:
+### Example scenario:
 ```
 import tgl
 
