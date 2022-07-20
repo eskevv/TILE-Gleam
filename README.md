@@ -1,8 +1,8 @@
 # TILE-Gleam
-## Tiled parser for XML in Python (originally for quick results in pygame) - unoptimized
+## Tiled parser for XML in Python (originally for quick results in pygame) 
+#### --could be optimized (uncontinued)
 
-I made this to improve my python skills when i started with Python
-[using a couple of my own string functions]
+I made this to learn python when i first got started (used a couple of my own string functions)
 
 ### Supports:
 - Animated tiles
